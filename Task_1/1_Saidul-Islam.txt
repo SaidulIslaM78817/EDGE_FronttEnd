@@ -1,0 +1,32 @@
+HTML (Hyper Text Markup Language)
+HTML is a markup language used to create the structure and content of web pages. It focuses on displaying information with predefined tags for elements like headings, paragraphs, images, and links.
+Example of HTML
+•	Structure:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+XML (extensible Markup Language)
+XML is a markup language designed to store and transport data in a structured and platform-independent way. It is self-descriptive and allows users to define their own tags.
+Example of XML
+•	Structure:
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <metadata>
+        <language>en</language>
+        <charset>UTF-8</charset>
+        <viewport>width=device-width, initial-scale=1.0</viewport>
+        <title>Document</title>
+    </metadata>
+    <body>
+        <!-- Content goes here -->
+    </body>
+</document>

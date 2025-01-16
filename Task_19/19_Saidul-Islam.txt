@@ -1,0 +1,26 @@
+Full-stack development involves creating both the front-end (user-facing) and back-end (server-side) parts of a web application. It includes building a fully functional app that users can interact with while managing the underlying logic, server processes, and database operations.
+
+Key Elements:
+1. Front-end (Client-side):
+   - Focuses on the visual interface and user experience (UI/UX).
+   - Uses technologies like HTML, CSS, JavaScript, and frameworks such as React, Angular, Vue.js, or Next.js.
+   - Example: Designing a login page, dynamic web content, or server-side rendered pages.
+
+2. Back-end (Server-side):
+   - Manages the app’s logic, database interactions, and API handling.
+   - Technologies include Node.js (Express), Python (Django/Flask), Java (Spring), PHP, Ruby on Rails, and NestJS.
+   - Example: Verifying user credentials, handling server requests, creating APIs, or retrieving database data.
+
+3. Database:
+   - Responsible for storing and retrieving application data.
+   - Common options: MySQL, PostgreSQL, MongoDB, SQLite.
+
+4. APIs (Application Programming Interfaces):
+   - Facilitates communication between the front-end and back-end.
+   - Example: RESTful or GraphQL APIs.
+
+Example Project:
+Creating an e-commerce website:
+- Front-end:Showcases product catalogs, search options, and shopping cart features, often using React or Next.js for performance and SEO.
+- Back-end:Manages user authentication, order processing, and inventory, typically with Node.js or NestJS.
+- Database:Saves user information, product details, and order history.

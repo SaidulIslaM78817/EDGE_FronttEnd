@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(to right, #64a3e1, #58b1ec);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        .registration-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+        }
+
+        .registration-container h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .registration-form {
+            width: 80%;
+            max-width: 500px;
+            background: linear-gradient(to bottom, #ffffff, #ecf0f1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .registration-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        .registration-form input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .registration-form button {
+            width: 100%;
+            padding: 10px 15px;
+            font-size: 18px ;
+            color: white;
+            background: #3498db;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .registration-form button:hover {
+            background: #08981e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Register</h1>
+        <p>Create your account and join SinoX today!</p>
+    </header>
+
+    <div class="registration-container">
+        <h2>Registration Form</h2>
+        <form class="registration-form">
+            <label for="username">Full Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SinoX Software Solutions</p>
+    </footer>
+
+</body>
+</html>

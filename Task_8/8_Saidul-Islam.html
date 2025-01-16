@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(to right, #81b4e0, #3498db);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        .contact-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+        }
+
+        .contact-container h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin-bottom: 40px;
+        }
+
+        .info-box {
+            background: linear-gradient(to bottom right, #ffffff, #f1f1f1);
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-box h3 {
+            font-size: 22px;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        .query-section {
+            width: 80%;
+            background: linear-gradient(to bottom, #ffffff, #ecf0f1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .query-section h3 {
+            font-size: 22px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .query-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .query-form input,
+        .query-form textarea {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .query-form textarea {
+            height: 120px;
+        }
+
+        .query-form button {
+            padding: 10px 15px;
+            font-size: 18px;
+            color: white;
+            background: #34b4db;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .query-form button:hover {
+            background: #0ba181;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: rgb(148, 121, 121);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Reach out to us for any inquiries.</p>
+    </header>
+
+    <div class="contact-container">
+        <h2>Get in Touch</h2>
+        <div class="contact-info">
+            <div class="info-box">
+                <h3>Email</h3>
+                <p>contact@sinox.com</p>
+            </div>
+            <div class="info-box">
+                <h3>Phone</h3>
+                <p>+8801567901437</p>
+            </div>
+            <div class="info-box">
+                <h3>Address</h3>
+                <p>Gazipur, Dhaka, Bangladesh</p>
+            </div>
+        </div>
+
+        <div class="query-section">
+            <h3>Send Us a Message</h3>
+            <form class="query-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SinoX Software Solutions</p>
+    </footer>
+
+</body>
+</html>

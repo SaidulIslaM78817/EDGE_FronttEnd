@@ -1,0 +1,32 @@
+A REST API (Representational State Transfer Application Programming Interface) is a set of guidelines and standards for creating and using web services. It follows the REST architectural style, which was introduced by Roy Fielding in his 2000 doctoral dissertation. A RESTful API enables systems to interact over the web using standard HTTP methods like GET, POST, PUT, DELETE, etc., to perform CRUD (Create, Read, Update, Delete) operations on resources.
+
+Key Principles of REST:
+
+1. Stateless: Each request from a client to the server must include all the information required to understand and process the request. The server does not store any client state between requests.  
+2. Client-Server Architecture: The client (e.g., a web browser or mobile app) and server (where data and resources are stored) are independent. The server doesn’t track the client, and the client doesn’t need to know how the server works internally.  
+3. Uniform Interface: REST relies on a consistent interface for client-server communication. This simplifies interactions and makes them predictable.  
+4. Resources: In REST, everything is treated as a resource (e.g., users, posts, products). Each resource is identified by a unique URL and manipulated using HTTP methods.  
+5. Representation: Resources are sent in specific formats like JSON, XML, or HTML. When the client requests a resource, the server responds with the resource’s data and associated metadata in the requested format.  
+6. Stateless Communication: Every client request is independent, and the server doesn’t depend on any prior client interaction. All relevant details must be included in each request.  
+7. Cacheable: Responses from the server can be marked as cacheable or non-cacheable to enhance performance.
+
+Common HTTP Methods in REST:
+
+1. GET: Retrieves data from the server (Read).  
+   - Example: `GET /users` fetches a list of users.  
+2. POST: Sends data to the server to create a new resource (Create).  
+   - Example: `POST /users` creates a new user with the provided data in the request body.  
+3. PUT: Updates an existing resource on the server (Update).  
+   - Example: `PUT /users/1` updates the user with ID 1.  
+4. DELETE: Removes a resource from the server (Delete).  
+   - Example: `DELETE /users/1` deletes the user with ID 1.  
+5. PATCH: Partially modifies a resource (Update).  
+   - Example: `PATCH /users/1` updates specific details for the user with ID 1.  
+
+Structure of a REST API Request:
+
+- URL (Uniform Resource Locator):** Points to the specific resource.  
+  - Example: `https://api.example.com/users/1`  
+- HTTP Method: Specifies the intended action (GET, POST, PUT, DELETE, etc.).  
+- Headers: Contains metadata such as authentication tokens or content types.  
+- Body: Includes data to send in the request (mainly for POST, PUT, or PATCH methods).
